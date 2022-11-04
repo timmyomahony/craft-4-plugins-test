@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+  web:
+    volumes:
+      - "$HOME/Repositories/craft-plugins-dev/craft-matrix-field-preview:/var/www/craft-matrix-field-preview"
+      - "$HOME/Repositories/craft-plugins-dev/craft-remote-sync:/var/www/craft-remote-sync"
+      - "$HOME/Repositories/craft-plugins-dev/craft-remote-backup:/var/www/craft-remote-backup"
+      - "$HOME/Repositories/craft-plugins-dev/craft-remote-core:/var/www/craft-remote-core"

@@ -1,0 +1,60 @@
+# DDEV
+.ddev/*
+!.ddev/config.yaml
+!.ddev/web-build/Dockerfile
+!.ddev/docker-compose.plugins.yaml
+!.ddev/php/my-php.ini
+
+
+backstage-website.code-workspace
+.env.php
+.env.sh
+.env
+var/
+
+config/license.key
+
+# COMPOSER
+/vendor
+
+# CRAFT STORAGE
+/craft/storage/*
+/storage/*
+
+# ASSETS
+/web/cpresources
+/web/uploads
+/web/assets
+/web/static
+/web/tmp
+/web/versions
+
+# IMAGER TRANSFORMS
+/public/imager/*
+/web/imager/*
+
+# BUILD FILES
+/bower_components/*
+/node_modules/*
+/build/*
+/yarn-error.log
+
+# MISC FILES
+.cache
+.DS_Store
+.idea
+.project
+.settings
+*.esproj
+*.sublime-workspace
+*.sublime-project
+*.tmproj
+*.tmproject
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+config.codekit3
+prepros-6.config
+

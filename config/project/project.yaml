@@ -1,0 +1,22 @@
+dateModified: 1667561680
+email:
+  fromEmail: hey@timmyomahony.com
+  fromName: 'Craft 4 Plugins Dev'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    2fa19ba7-a1ec-4f24-8c27-f5641b6fca9b: 'Craft 4 Plugins Dev'
+    4cbb68de-54d6-44a1-9d2f-9397f96e561b: 'Craft 4 Plugins Dev'
+    d5b11ef6-68c2-4873-af24-aa69a94660bc: Common
+system:
+  edition: solo
+  live: true
+  name: 'Craft 4 Plugins Dev'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

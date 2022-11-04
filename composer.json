@@ -1,0 +1,78 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "aws/aws-sdk-php": "^3",
+        "craftcms/cms": "4.1.2",
+        "google/apiclient": "^2",
+        "kunalvarma05/dropbox-php-sdk": "^0.4",
+        "spicyweb/craft-neo": "3.0.6",
+        "vaersaagod/dospaces": "2.0.0",
+        "vaersaagod/matrixmate": "dev-master",
+        "vlucas/phpdotenv": "^5.4.0",
+        "weareferal/matrix-field-preview": "dev-develop",
+        "weareferal/remote-backup": "dev-develop",
+        "weareferal/remote-sync": "dev-develop"
+    },
+    "require-dev": {
+        "craftcms/phpstan": "dev-main",
+        "yiisoft/yii2-shell": "^2.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "modules\\": "modules/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        },
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "8.0.2"
+        }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../craft-matrix-field-preview",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../craft-remote-backup",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../craft-remote-sync",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "../craft-remote-core",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "scripts": {
+        "craft-update": [
+            "@php craft migrate/all",
+            "@php craft project-config/apply",
+            "@php craft clear-caches/all"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-update-cmd": "@craft-update",
+        "post-install-cmd": "@craft-update"
+    }
+}

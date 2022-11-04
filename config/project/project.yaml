@@ -1,13 +1,51 @@
-dateModified: 1667561680
+dateModified: 1667598055
 email:
   fromEmail: hey@timmyomahony.com
   fromName: 'Craft 4 Plugins Dev'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  localFiles:
+    hasUrls: true
+    name: 'Local Files'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: 'https://craft-4-plugins-dev.ddev.site/uploads/'
 meta:
   __names__:
-    2fa19ba7-a1ec-4f24-8c27-f5641b6fca9b: 'Craft 4 Plugins Dev'
-    4cbb68de-54d6-44a1-9d2f-9397f96e561b: 'Craft 4 Plugins Dev'
-    d5b11ef6-68c2-4873-af24-aa69a94660bc: Common
+    2fa19ba7-a1ec-4f24-8c27-f5641b6fca9b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
+    4cbb68de-54d6-44a1-9d2f-9397f96e561b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
+    b3725018-b491-41b7-8a88-f36706c76d2f: Uploads
+    d5b11ef6-68c2-4873-af24-aa69a94660bc: Common # Common
+plugins:
+  dospaces:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  matrix-field-preview:
+    edition: standard
+    enabled: true
+    licenseKey: CY3WXUTHDUV50D2XHRVHHHE4
+    schemaVersion: 3.0.2
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: 5N9WPGXO4OF1XAYSNR3EC9A0
+    schemaVersion: 3.0.4
+  remote-backup:
+    edition: standard
+    enabled: true
+    licenseKey: 6PWPZI7GPXAE4O73Q3PDIUTI
+    schemaVersion: 1.0.0
+  remote-sync:
+    edition: standard
+    enabled: true
+    licenseKey: 9MQL5RC2B0V9RE2G5K3JZMKD
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true

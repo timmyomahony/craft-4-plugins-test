@@ -4,5 +4,5 @@ hasUrls: true
 language: en-US
 name: 'Craft 4 Plugins Dev'
 primary: true
-siteGroup: 4cbb68de-54d6-44a1-9d2f-9397f96e561b
+siteGroup: 4cbb68de-54d6-44a1-9d2f-9397f96e561b # Craft 4 Plugins Dev
 sortOrder: 1

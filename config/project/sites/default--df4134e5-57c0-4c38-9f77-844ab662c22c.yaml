@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: 'Craft 4 Plugins Release'
+primary: true
+siteGroup: 81989e13-e620-42bc-a675-d4a3ac462f1e # Craft 4 Plugins Release
+sortOrder: 1

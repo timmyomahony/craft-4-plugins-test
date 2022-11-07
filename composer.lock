@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c7084d20e879123a61f7af86bffdc6a",
+    "content-hash": "54163d21c25fb508dabd4d53d22d6954",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.240.9",
+            "version": "3.240.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ee0bde83538e5acbb4f84f79a12b651ccb19017b"
+                "reference": "84b8229fc25cf787876047b6a73b202209853e79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ee0bde83538e5acbb4f84f79a12b651ccb19017b",
-                "reference": "ee0bde83538e5acbb4f84f79a12b651ccb19017b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/84b8229fc25cf787876047b6a73b202209853e79",
+                "reference": "84b8229fc25cf787876047b6a73b202209853e79",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.9"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.240.10"
             },
-            "time": "2022-11-03T18:18:02+00:00"
+            "time": "2022-11-04T19:25:00+00:00"
         },
         {
             "name": "cebe/markdown",
@@ -1814,16 +1814,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.272.1",
+            "version": "v0.273.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "436943c42277545c2310fe5852835d7e3628a35a"
+                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/436943c42277545c2310fe5852835d7e3628a35a",
-                "reference": "436943c42277545c2310fe5852835d7e3628a35a",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/827bbf2b7b20fa97e845122d3d91517e173e959f",
+                "reference": "827bbf2b7b20fa97e845122d3d91517e173e959f",
                 "shasum": ""
             },
             "require": {
@@ -1852,9 +1852,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.272.1"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.273.0"
             },
-            "time": "2022-10-31T01:22:13+00:00"
+            "time": "2022-11-07T01:34:13+00:00"
         },
         {
             "name": "google/auth",
@@ -2317,12 +2317,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "9d98beda3f50251321565b77455687794e47dfcc"
+                "reference": "1729899f8e37840738d1c37bb110da5b09509990"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/9d98beda3f50251321565b77455687794e47dfcc",
-                "reference": "9d98beda3f50251321565b77455687794e47dfcc",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/1729899f8e37840738d1c37bb110da5b09509990",
+                "reference": "1729899f8e37840738d1c37bb110da5b09509990",
                 "shasum": ""
             },
             "require": {
@@ -2364,7 +2364,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-10-29T16:25:53+00:00"
+            "time": "2022-11-07T11:40:33+00:00"
         },
         {
             "name": "illuminate/conditionable",
@@ -7528,10 +7528,16 @@
         {
             "name": "weareferal/matrix-field-preview",
             "version": "dev-develop",
-            "dist": {
-                "type": "path",
-                "url": "../craft-matrix-field-preview",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weareferal/craft-matrix-field-preview.git",
                 "reference": "1f5e84315f7c38f10206e87d6dbda211552c85ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/weareferal/craft-matrix-field-preview/zipball/1f5e84315f7c38f10206e87d6dbda211552c85ee",
+                "reference": "1f5e84315f7c38f10206e87d6dbda211552c85ee",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.0.0",
@@ -7558,47 +7564,52 @@
                     "weareferal\\matrixfieldpreview\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
             "authors": [
                 {
-                    "name": "Timmy O'Mahony ",
+                    "name": "Timmy O'Mahony",
                     "homepage": "https://weareferal.com"
                 }
             ],
             "description": "Gives you the ability to configure a preview for all your matrix field blocks, giving your clients a better publishing experience.",
             "keywords": [
+                "Craft",
+                "Neo",
                 "cms",
-                "craft",
                 "craftcms",
                 "field",
                 "matrix",
                 "matrix field preview",
-                "neo",
                 "plugin"
             ],
             "support": {
                 "docs": "https://github.com/weareferal/matrix-field-preview/blob/master/README.md",
-                "issues": "https://github.com/weareferal/matrix-field-preview/issues"
+                "issues": "https://github.com/weareferal/matrix-field-preview/issues",
+                "source": "https://github.com/weareferal/craft-matrix-field-preview/tree/develop"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2022-09-21T23:53:30+00:00"
         },
         {
             "name": "weareferal/remote-backup",
-            "version": "dev-develop",
+            "version": "dev-release/4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weareferal/craft-remote-backup.git",
+                "reference": "6424eb026c89ec71c2a3e98a3fb20108d2f853eb"
+            },
             "dist": {
-                "type": "path",
-                "url": "../craft-remote-backup",
-                "reference": "97cb57a73f0e2b0b8869d6d7defb1c6cb7903416"
+                "type": "zip",
+                "url": "https://api.github.com/repos/weareferal/craft-remote-backup/zipball/6424eb026c89ec71c2a3e98a3fb20108d2f853eb",
+                "reference": "6424eb026c89ec71c2a3e98a3fb20108d2f853eb",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.0.0",
                 "php": "^8.0.2",
-                "weareferal/remote-core": "dev-develop"
+                "weareferal/remote-core": "^4.1.0"
             },
             "require-dev": {
                 "craftcms/phpstan": "dev-main",
@@ -7624,6 +7635,7 @@
                     "weareferal\\remotebackup\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -7635,28 +7647,32 @@
             ],
             "description": "Backup your database and assets to a remote location",
             "keywords": [
+                "Craft",
                 "backup",
                 "cms",
-                "craft",
                 "craft-plugin",
                 "craftcms"
             ],
             "support": {
                 "docs": "https://github.com/weareferal/craft-remote-backup/blob/master/README.md",
-                "issues": "https://github.com/weareferal/craft-remote-backup/issues"
+                "issues": "https://github.com/weareferal/craft-remote-backup/issues",
+                "source": "https://github.com/weareferal/craft-remote-backup/tree/release/4.1.3"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2022-11-07T17:10:12+00:00"
         },
         {
             "name": "weareferal/remote-core",
-            "version": "dev-develop",
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weareferal/craft-remote-core.git",
+                "reference": "60026be82d10cdce7aeedd23c6e175e6b8e8392a"
+            },
             "dist": {
-                "type": "path",
-                "url": "../craft-remote-core",
-                "reference": "4f2c9a67ef7de3f71976127b8e186743241aae3b"
+                "type": "zip",
+                "url": "https://api.github.com/repos/weareferal/craft-remote-core/zipball/60026be82d10cdce7aeedd23c6e175e6b8e8392a",
+                "reference": "60026be82d10cdce7aeedd23c6e175e6b8e8392a",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.0.0",
@@ -7684,6 +7700,7 @@
                     "weareferal\\remotecore\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -7694,23 +7711,30 @@
                 }
             ],
             "description": "Backend module for remote-sync and remote-backup",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/weareferal/craft-remote-core/issues",
+                "source": "https://github.com/weareferal/craft-remote-core/tree/4.1.0"
+            },
+            "time": "2022-10-05T14:28:56+00:00"
         },
         {
             "name": "weareferal/remote-sync",
-            "version": "dev-develop",
+            "version": "dev-release/4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/weareferal/craft-remote-sync.git",
+                "reference": "8bbbd2b890e3968c49606487ad45b3fd1256866d"
+            },
             "dist": {
-                "type": "path",
-                "url": "../craft-remote-sync",
-                "reference": "9c20bcff32d76b14a9fbf2bb60cf4a3c0f1e7e92"
+                "type": "zip",
+                "url": "https://api.github.com/repos/weareferal/craft-remote-sync/zipball/8bbbd2b890e3968c49606487ad45b3fd1256866d",
+                "reference": "8bbbd2b890e3968c49606487ad45b3fd1256866d",
+                "shasum": ""
             },
             "require": {
                 "craftcms/cms": "^4.0.0",
                 "php": "^8.0.2",
-                "weareferal/remote-core": "dev-develop"
+                "weareferal/remote-core": "^4.1.0"
             },
             "require-dev": {
                 "craftcms/phpstan": "dev-main",
@@ -7736,6 +7760,7 @@
                     "weareferal\\remotesync\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "proprietary"
             ],
@@ -7747,20 +7772,18 @@
             ],
             "description": "Sync your database and assets across Craft environments",
             "keywords": [
+                "Craft",
                 "cms",
-                "craft",
                 "craft-plugin",
                 "craftcms",
                 "sync"
             ],
             "support": {
                 "docs": "https://github.com/weareferal/craft-remote-sync/blob/master/README.md",
-                "issues": "https://github.com/weareferal/craft-remote-sync/issues"
+                "issues": "https://github.com/weareferal/craft-remote-sync/issues",
+                "source": "https://github.com/weareferal/craft-remote-sync/tree/release/4.1.1"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2022-11-07T17:14:57+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -8449,12 +8472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "7fa3245b8e2425be1728e2661bd708569049f7d0"
+                "reference": "533da0c2cdf3c887a3b6770e8fda909a5ca1c7f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/7fa3245b8e2425be1728e2661bd708569049f7d0",
-                "reference": "7fa3245b8e2425be1728e2661bd708569049f7d0",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/533da0c2cdf3c887a3b6770e8fda909a5ca1c7f6",
+                "reference": "533da0c2cdf3c887a3b6770e8fda909a5ca1c7f6",
                 "shasum": ""
             },
             "require": {
@@ -8501,7 +8524,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-04T10:28:58+00:00"
+            "time": "2022-11-07T16:53:25+00:00"
         },
         {
             "name": "psy/psysh",
@@ -8509,12 +8532,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "a279bf8aa0724540a11000c9d3e7c988159af694"
+                "reference": "c50e88a1f3733bedbbb08299eef90f96077ccd80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/a279bf8aa0724540a11000c9d3e7c988159af694",
-                "reference": "a279bf8aa0724540a11000c9d3e7c988159af694",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/c50e88a1f3733bedbbb08299eef90f96077ccd80",
+                "reference": "c50e88a1f3733bedbbb08299eef90f96077ccd80",
                 "shasum": ""
             },
             "require": {
@@ -8578,7 +8601,7 @@
                 "issues": "https://github.com/bobthecow/psysh/issues",
                 "source": "https://github.com/bobthecow/psysh/tree/main"
             },
-            "time": "2022-10-27T13:18:02+00:00"
+            "time": "2022-11-06T21:09:00+00:00"
         },
         {
             "name": "yiisoft/yii2-shell",

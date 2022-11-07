@@ -1,4 +1,4 @@
-name: craft-4-plugins-dev
+name: craft-4-plugins-release
 type: php
 docroot: web
 php_version: "8.0"
@@ -14,7 +14,7 @@ database:
 nfs_mount_enabled: false
 mutagen_enabled: false
 omit_containers: [dba]
-host_db_port: "57200"
+host_db_port: "56300"
 use_dns_when_possible: true
 composer_version: "2"
 web_environment: []

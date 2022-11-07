@@ -1,7 +1,7 @@
-dateModified: 1667840381
+dateModified: 1667842748
 email:
   fromEmail: hey@timmyomahony.com
-  fromName: 'Craft 4 Plugins Dev'
+  fromName: 'Craft 4 Plugins Release'
   transportType: craft\mail\transportadapters\Sendmail
 fs:
   localFiles:
@@ -10,23 +10,13 @@ fs:
     settings:
       path: '@webroot/uploads'
     type: craft\fs\Local
-    url: 'https://craft-4-plugins-dev.ddev.site/uploads/'
+    url: 'https://craft-4-plugins-release.ddev.site/uploads/'
 meta:
   __names__:
-    2fa19ba7-a1ec-4f24-8c27-f5641b6fca9b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
-    4c96a69a-cfb4-4227-8651-94d75c8bd93a: Image # Image
-    4cbb68de-54d6-44a1-9d2f-9397f96e561b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
-    5c95439d-be69-4d70-af20-971744ad8855: Visible # Visible
-    9dcda639-46c7-468a-a21d-5c683b6c1e04: Headline # Headline
-    42a47360-6c72-4fec-99e6-5da57c14004d: Hero # Hero
-    060a0464-b9c6-4a45-a199-a5a2658ad8c8: 'Blog Post' # Blog Post
-    4438a5f8-cf85-40fb-9850-85c6dd3fa1b7: 'Content Builder' # Content Builder
-    7797e98a-8dbb-4e4e-be5f-1a8c035f395c: Description # Description
-    412286de-2c4d-46a9-9328-136a8578f5a1: Default # Default
-    6600897e-706c-4a38-aeb1-fa0d665d942c: Divider # Divider
-    b261e891-7f67-41f5-b6ea-1db11ea0f6f7: Subtitle # Subtitle
-    b3725018-b491-41b7-8a88-f36706c76d2f: Uploads # Uploads
-    d5b11ef6-68c2-4873-af24-aa69a94660bc: Common # Common
+    341f5f59-5d5a-43ec-a205-547d3e87c94f: Uploads
+    347c7f45-1e78-44c5-ba27-981eb95643c9: Common # Common
+    81989e13-e620-42bc-a675-d4a3ac462f1e: 'Craft 4 Plugins Release' # Craft 4 Plugins Release
+    df4134e5-57c0-4c38-9f77-844ab662c22c: 'Craft 4 Plugins Release' # Craft 4 Plugins Release
 plugins:
   dospaces:
     edition: standard
@@ -35,7 +25,7 @@ plugins:
   matrix-field-preview:
     edition: standard
     enabled: true
-    licenseKey: CY3WXUTHDUV50D2XHRVHHHE4
+    licenseKey: SGCX0PI42ZD4161DK94Y4CEC
     schemaVersion: 3.0.2
   matrixmate:
     edition: standard
@@ -44,12 +34,12 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: 5N9WPGXO4OF1XAYSNR3EC9A0
+    licenseKey: OVN67Q05TORO4WYW85BID9BQ
     schemaVersion: 3.0.4
   remote-backup:
     edition: standard
     enabled: true
-    licenseKey: 6PWPZI7GPXAE4O73Q3PDIUTI
+    licenseKey: 3X588R67BZOMOX2Y9JYJYIBR
     schemaVersion: 1.0.0
     settings:
       b2BucketName: ''
@@ -62,8 +52,8 @@ plugins:
       doAccessKey: $DO_ACCESS_KEY
       doRegionName: fra1
       doSecretKey: $DO_SECRET_KEY
-      doSpacesName: craft-4-plugins-dev
-      doSpacesPath: craft-remote-backups
+      doSpacesName: craft-4-plugins-release
+      doSpacesPath: craft-remote-backup
       dropboxAccessToken: ''
       dropboxAppKey: ''
       dropboxFolder: ''
@@ -99,12 +89,53 @@ plugins:
   remote-sync:
     edition: standard
     enabled: true
-    licenseKey: 9MQL5RC2B0V9RE2G5K3JZMKD
+    licenseKey: UMOKOZROFKNHBLDBS6EHHASC
     schemaVersion: 1.0.0
+    settings:
+      b2BucketName: ''
+      b2BucketPath: ''
+      b2MasterAppKey: ''
+      b2MasterKeyID: ''
+      b2RegionName: ''
+      cloudProvider: do
+      displayDateFormat: Y-m-d
+      doAccessKey: $DO_ACCESS_KEY
+      doRegionName: fra1
+      doSecretKey: $DO_SECRET_KEY
+      doSpacesName: craft-4-plugins-release
+      doSpacesPath: craft-remote-sync
+      dropboxAccessToken: ''
+      dropboxAppKey: ''
+      dropboxFolder: ''
+      dropboxSecretKey: ''
+      enabled: '1'
+      googleAuthRedirect: ''
+      googleClientId: ''
+      googleClientSecret: ''
+      googleDriveFolderId: ''
+      googleProjectName: ''
+      hideDatabases: ''
+      hideVolumes: ''
+      keepEmergencyBackup: '1'
+      otherS3AccessKey: ''
+      otherS3BucketName: ''
+      otherS3BucketPath: ''
+      otherS3Endpoint: ''
+      otherS3RegionName: ''
+      otherS3SecretKey: ''
+      prune: ''
+      pruneLimit: '10'
+      queueTtr: '300'
+      s3AccessKey: ''
+      s3BucketName: ''
+      s3BucketPath: ''
+      s3RegionName: ''
+      s3SecretKey: ''
+      useQueue: ''
 system:
   edition: solo
   live: true
-  name: 'Craft 4 Plugins Dev'
+  name: 'Craft 4 Plugins Release'
   schemaVersion: 4.0.0.9
   timeZone: America/Los_Angeles
 users:

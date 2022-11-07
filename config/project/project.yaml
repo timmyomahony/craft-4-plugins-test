@@ -1,4 +1,4 @@
-dateModified: 1667598055
+dateModified: 1667840381
 email:
   fromEmail: hey@timmyomahony.com
   fromName: 'Craft 4 Plugins Dev'
@@ -14,8 +14,18 @@ fs:
 meta:
   __names__:
     2fa19ba7-a1ec-4f24-8c27-f5641b6fca9b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
+    4c96a69a-cfb4-4227-8651-94d75c8bd93a: Image # Image
     4cbb68de-54d6-44a1-9d2f-9397f96e561b: 'Craft 4 Plugins Dev' # Craft 4 Plugins Dev
-    b3725018-b491-41b7-8a88-f36706c76d2f: Uploads
+    5c95439d-be69-4d70-af20-971744ad8855: Visible # Visible
+    9dcda639-46c7-468a-a21d-5c683b6c1e04: Headline # Headline
+    42a47360-6c72-4fec-99e6-5da57c14004d: Hero # Hero
+    060a0464-b9c6-4a45-a199-a5a2658ad8c8: 'Blog Post' # Blog Post
+    4438a5f8-cf85-40fb-9850-85c6dd3fa1b7: 'Content Builder' # Content Builder
+    7797e98a-8dbb-4e4e-be5f-1a8c035f395c: Description # Description
+    412286de-2c4d-46a9-9328-136a8578f5a1: Default # Default
+    6600897e-706c-4a38-aeb1-fa0d665d942c: Divider # Divider
+    b261e891-7f67-41f5-b6ea-1db11ea0f6f7: Subtitle # Subtitle
+    b3725018-b491-41b7-8a88-f36706c76d2f: Uploads # Uploads
     d5b11ef6-68c2-4873-af24-aa69a94660bc: Common # Common
 plugins:
   dospaces:
@@ -41,6 +51,51 @@ plugins:
     enabled: true
     licenseKey: 6PWPZI7GPXAE4O73Q3PDIUTI
     schemaVersion: 1.0.0
+    settings:
+      b2BucketName: ''
+      b2BucketPath: ''
+      b2MasterAppKey: ''
+      b2MasterKeyID: ''
+      b2RegionName: ''
+      cloudProvider: do
+      displayDateFormat: Y-m-d
+      doAccessKey: $DO_ACCESS_KEY
+      doRegionName: fra1
+      doSecretKey: $DO_SECRET_KEY
+      doSpacesName: craft-4-plugins-dev
+      doSpacesPath: craft-remote-backups
+      dropboxAccessToken: ''
+      dropboxAppKey: ''
+      dropboxFolder: ''
+      dropboxSecretKey: ''
+      enabled: '1'
+      googleAuthRedirect: ''
+      googleClientId: ''
+      googleClientSecret: ''
+      googleDriveFolderId: ''
+      googleProjectName: ''
+      hideDatabases: ''
+      hideVolumes: ''
+      keepLocal: ''
+      otherS3AccessKey: ''
+      otherS3BucketName: ''
+      otherS3BucketPath: ''
+      otherS3Endpoint: ''
+      otherS3RegionName: ''
+      otherS3SecretKey: ''
+      prune: '1'
+      pruneDailyCount: '14'
+      pruneHourlyCount: '6'
+      pruneMonthlyCount: '6'
+      pruneWeeklyCount: '4'
+      pruneYearlyCount: '3'
+      queueTtr: '300'
+      s3AccessKey: ''
+      s3BucketName: ''
+      s3BucketPath: ''
+      s3RegionName: ''
+      s3SecretKey: ''
+      useQueue: ''
   remote-sync:
     edition: standard
     enabled: true
